@@ -1,1 +1,36 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.card {
+  width: 260px;
+  height: 400px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.suit {
+  font-size: 80px;
+  position: absolute;
+}
+
+.top-left {
+  top: 5px;
+  left: 10px;
+}
+.middle {
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bottom-right {
+  bottom: 5px;
+  right: 10px;
+}
